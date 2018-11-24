@@ -40,7 +40,7 @@ export default class Login extends Component {
 
   render () {
     return (
-     <div className="">
+     <div className="padre">
         <Form
           onLogin={this.handleOnSubmit}
           onError={this.state}
