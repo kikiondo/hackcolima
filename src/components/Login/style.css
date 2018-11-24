@@ -1,0 +1,33 @@
+.login-container {
+   
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  border: 0;
+ 
+  text-align: center;
+  }
+
+  .login-container h1{
+    font-size: 3em;
+  }
+  .buttons-container {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .buttons-login {
+    margin: 1em;
+  }
+
+.text {
+  margin-top: 0%;
+  font-weight: bold;    
+}
+
+.logo-about {
+  margin-top: 10%;
+  height: 17vmin;
+}

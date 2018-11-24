@@ -1,0 +1,53 @@
+.logo-nav {
+  margin-left: 20%;
+  padding: 0%;
+  height: 8vmin;
+}
+
+.nav item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  margin: 0;
+  padding: 1em;
+}
+ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+ul li a {
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s, color 0.5s;
+}
+ul li a:hover {
+  color: black;
+}
+ul li a .contact {
+  border: 1px solid white;
+}
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: linear-gradient(to bottom right, #1976d2 , #1976d2 );
+  color: white;
+}
+.nav .slam-left {
+  margin-right: auto;
+}

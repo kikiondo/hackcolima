@@ -1,0 +1,576 @@
+{
+  "id" : "f33t-b2xd",
+  "name" : "Banco de Empleo en el  Municipio de Chía  2017",
+  "attribution" : "Alcaldía Municipal de Chía",
+  "averageRating" : 0,
+  "category" : "Agricultura y Desarrollo Rural",
+  "createdAt" : 1502208964,
+  "description" : "Información estadística Banco de Empleo en el  Municipio de Chía  2017",
+  "displayType" : "table",
+  "downloadCount" : 19,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "indexUpdatedAt" : 1539191408,
+  "licenseId" : "CC_40_BY_SA",
+  "locale" : "en_US",
+  "newBackend" : false,
+  "numberOfComments" : 0,
+  "oid" : 27917494,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1517592886,
+  "publicationGroup" : 14384875,
+  "publicationStage" : "published",
+  "rowsUpdatedAt" : 1517592828,
+  "rowsUpdatedBy" : "pjz2-mur9",
+  "tableId" : 14855778,
+  "totalTimesRated" : 0,
+  "viewCount" : 142,
+  "viewLastModified" : 1539191399,
+  "viewType" : "tabular",
+  "columns" : [ {
+    "id" : 343627766,
+    "name" : "PERIODO",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "enero",
+    "position" : 1,
+    "renderTypeName" : "text",
+    "tableColumnId" : 51599150,
+    "width" : 140,
+    "cachedContents" : {
+      "largest" : "Septiembre ",
+      "non_null" : 10,
+      "null" : 0,
+      "top" : [ {
+        "item" : "Enero ",
+        "count" : 20
+      }, {
+        "item" : "Febrero ",
+        "count" : 19
+      }, {
+        "item" : "Marzo ",
+        "count" : 18
+      }, {
+        "item" : "Junio ",
+        "count" : 17
+      }, {
+        "item" : "Julio ",
+        "count" : 16
+      }, {
+        "item" : "Agosto ",
+        "count" : 15
+      }, {
+        "item" : "Septiembre ",
+        "count" : 14
+      }, {
+        "item" : "Octubre ",
+        "count" : 13
+      }, {
+        "item" : "Noviembre ",
+        "count" : 12
+      }, {
+        "item" : "Diciembre ",
+        "count" : 11
+      } ],
+      "smallest" : "Agosto "
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 343627767,
+    "name" : "SECTOR PRODUCTIVO SOLICITADO ",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "sector_productivo_solicitado",
+    "position" : 2,
+    "renderTypeName" : "text",
+    "tableColumnId" : 51599161,
+    "width" : 298,
+    "cachedContents" : {
+      "largest" : "Vigilantes - Operarios",
+      "non_null" : 10,
+      "null" : 0,
+      "top" : [ {
+        "item" : "Servicios",
+        "count" : 20
+      }, {
+        "item" : "Floricultor",
+        "count" : 19
+      }, {
+        "item" : "Servicios Construcción  ",
+        "count" : 18
+      }, {
+        "item" : "Servicios-  Generales ",
+        "count" : 17
+      }, {
+        "item" : "Ventas",
+        "count" : 16
+      }, {
+        "item" : "Ventas - Servicios ",
+        "count" : 15
+      }, {
+        "item" : "Ventas- Construcción",
+        "count" : 14
+      }, {
+        "item" : "Vigilantes - Operarios",
+        "count" : 13
+      }, {
+        "item" : "Asesores - Comerciales",
+        "count" : 12
+      } ],
+      "smallest" : "Asesores - Comerciales"
+    },
+    "format" : { }
+  }, {
+    "id" : 343627768,
+    "name" : "JÓVENES 18 - 29",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "j_venes_18_29",
+    "position" : 3,
+    "renderTypeName" : "number",
+    "tableColumnId" : 51599154,
+    "width" : 187,
+    "cachedContents" : {
+      "largest" : "355",
+      "non_null" : 10,
+      "average" : "160",
+      "null" : 0,
+      "top" : [ {
+        "item" : "116",
+        "count" : 20
+      }, {
+        "item" : "93",
+        "count" : 19
+      }, {
+        "item" : "138",
+        "count" : 18
+      }, {
+        "item" : "300",
+        "count" : 17
+      }, {
+        "item" : "214",
+        "count" : 16
+      }, {
+        "item" : "355",
+        "count" : 15
+      }, {
+        "item" : "167",
+        "count" : 14
+      }, {
+        "item" : "83",
+        "count" : 13
+      }, {
+        "item" : "89",
+        "count" : 12
+      }, {
+        "item" : "45",
+        "count" : 11
+      } ],
+      "smallest" : "45",
+      "sum" : "1600"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 343627769,
+    "name" : "ADULTO 30- 59",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "adulto_30_59",
+    "position" : 4,
+    "renderTypeName" : "number",
+    "tableColumnId" : 51599155,
+    "width" : 138,
+    "cachedContents" : {
+      "largest" : "160",
+      "non_null" : 10,
+      "average" : "71.8",
+      "null" : 0,
+      "top" : [ {
+        "item" : "29",
+        "count" : 20
+      }, {
+        "item" : "47",
+        "count" : 19
+      }, {
+        "item" : "35",
+        "count" : 18
+      }, {
+        "item" : "120",
+        "count" : 17
+      }, {
+        "item" : "154",
+        "count" : 16
+      }, {
+        "item" : "160",
+        "count" : 15
+      }, {
+        "item" : "96",
+        "count" : 14
+      }, {
+        "item" : "30",
+        "count" : 13
+      }, {
+        "item" : "18",
+        "count" : 12
+      } ],
+      "smallest" : "18",
+      "sum" : "718"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 343627770,
+    "name" : "ADULTO MAYOR 60  en adelante ",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "adulto_mayor_60_en_adelante",
+    "position" : 5,
+    "renderTypeName" : "number",
+    "tableColumnId" : 51599156,
+    "width" : 217,
+    "cachedContents" : {
+      "largest" : "52",
+      "non_null" : 10,
+      "average" : "12.8",
+      "null" : 0,
+      "top" : [ {
+        "item" : "5",
+        "count" : 20
+      }, {
+        "item" : "8",
+        "count" : 19
+      }, {
+        "item" : "20",
+        "count" : 18
+      }, {
+        "item" : "52",
+        "count" : 17
+      }, {
+        "item" : "10",
+        "count" : 16
+      }, {
+        "item" : "2",
+        "count" : 15
+      }, {
+        "item" : "4",
+        "count" : 14
+      }, {
+        "item" : "7",
+        "count" : 13
+      }, {
+        "item" : "0",
+        "count" : 12
+      } ],
+      "smallest" : "0",
+      "sum" : "128"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 343627771,
+    "name" : "MASCULINO",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "masculino",
+    "position" : 6,
+    "renderTypeName" : "number",
+    "tableColumnId" : 51599157,
+    "width" : 208,
+    "cachedContents" : {
+      "largest" : "318",
+      "non_null" : 10,
+      "average" : "113.2",
+      "null" : 0,
+      "top" : [ {
+        "item" : "65",
+        "count" : 20
+      }, {
+        "item" : "70",
+        "count" : 19
+      }, {
+        "item" : "85",
+        "count" : 18
+      }, {
+        "item" : "318",
+        "count" : 17
+      }, {
+        "item" : "169",
+        "count" : 16
+      }, {
+        "item" : "209",
+        "count" : 15
+      }, {
+        "item" : "43",
+        "count" : 14
+      }, {
+        "item" : "55",
+        "count" : 13
+      }, {
+        "item" : "33",
+        "count" : 12
+      } ],
+      "smallest" : "33",
+      "sum" : "1132"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 343627772,
+    "name" : "FEMENINO",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "femenino",
+    "position" : 7,
+    "renderTypeName" : "number",
+    "tableColumnId" : 51599158,
+    "width" : 156,
+    "cachedContents" : {
+      "largest" : "318",
+      "non_null" : 10,
+      "average" : "147.8",
+      "null" : 0,
+      "top" : [ {
+        "item" : "85",
+        "count" : 20
+      }, {
+        "item" : "78",
+        "count" : 19
+      }, {
+        "item" : "108",
+        "count" : 18
+      }, {
+        "item" : "318",
+        "count" : 17
+      }, {
+        "item" : "219",
+        "count" : 16
+      }, {
+        "item" : "316",
+        "count" : 15
+      }, {
+        "item" : "180",
+        "count" : 14
+      }, {
+        "item" : "73",
+        "count" : 13
+      }, {
+        "item" : "71",
+        "count" : 12
+      }, {
+        "item" : "30",
+        "count" : 11
+      } ],
+      "smallest" : "30",
+      "sum" : "1478"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 343627773,
+    "name" : "NUMERO DE PERSONAS  SOLICITANTES",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "numero_de_personas_solicitantes",
+    "position" : 8,
+    "renderTypeName" : "number",
+    "tableColumnId" : 51599159,
+    "width" : 225,
+    "cachedContents" : {
+      "largest" : "525",
+      "non_null" : 10,
+      "average" : "244.6",
+      "null" : 0,
+      "top" : [ {
+        "item" : "150",
+        "count" : 20
+      }, {
+        "item" : "148",
+        "count" : 19
+      }, {
+        "item" : "193",
+        "count" : 18
+      }, {
+        "item" : "472",
+        "count" : 17
+      }, {
+        "item" : "388",
+        "count" : 16
+      }, {
+        "item" : "525",
+        "count" : 15
+      }, {
+        "item" : "265",
+        "count" : 14
+      }, {
+        "item" : "116",
+        "count" : 13
+      }, {
+        "item" : "126",
+        "count" : 12
+      }, {
+        "item" : "63",
+        "count" : 11
+      } ],
+      "smallest" : "63",
+      "sum" : "2446"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 343627774,
+    "name" : "NÚMERO DE PERSONAS VINCULADAS",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "n_mero_de_personas_vinculadas",
+    "position" : 9,
+    "renderTypeName" : "number",
+    "tableColumnId" : 51599160,
+    "width" : 324,
+    "cachedContents" : {
+      "largest" : "145",
+      "non_null" : 10,
+      "average" : "79.9",
+      "null" : 0,
+      "top" : [ {
+        "item" : "22",
+        "count" : 20
+      }, {
+        "item" : "40",
+        "count" : 19
+      }, {
+        "item" : "102",
+        "count" : 18
+      }, {
+        "item" : "118",
+        "count" : 17
+      }, {
+        "item" : "130",
+        "count" : 16
+      }, {
+        "item" : "46",
+        "count" : 15
+      }, {
+        "item" : "145",
+        "count" : 14
+      }, {
+        "item" : "63",
+        "count" : 13
+      }, {
+        "item" : "15",
+        "count" : 12
+      } ],
+      "smallest" : "15",
+      "sum" : "799"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  }, {
+    "id" : 343627775,
+    "name" : "NUMERO DE CONVOCATORIAS ",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "numero_de_convocatorias",
+    "position" : 10,
+    "renderTypeName" : "number",
+    "tableColumnId" : 51599162,
+    "width" : 235,
+    "cachedContents" : {
+      "largest" : "5",
+      "non_null" : 10,
+      "average" : "2.9",
+      "null" : 0,
+      "top" : [ {
+        "item" : "4",
+        "count" : 20
+      }, {
+        "item" : "3",
+        "count" : 19
+      }, {
+        "item" : "5",
+        "count" : 18
+      }, {
+        "item" : "2",
+        "count" : 17
+      }, {
+        "item" : "1",
+        "count" : 16
+      } ],
+      "smallest" : "1",
+      "sum" : "29"
+    },
+    "format" : {
+      "displayStyle" : "plain",
+      "align" : "left"
+    }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "license" : {
+    "name" : "Creative Commons Attribution | Share Alike 4.0 International",
+    "logoUrl" : "images/licenses/cc30bysa.png",
+    "termsLink" : "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+  },
+  "metadata" : {
+    "rdfSubject" : "0",
+    "custom_fields" : {
+      "Información de la Entidad" : {
+        "Municipio" : "Chía",
+        "Nombre de la Entidad" : "Alcaldía Municipal de Chía",
+        "Orden" : "Territorial",
+        "Sector" : "Agricultura y Desarrollo Rural",
+        "Área o dependencia" : "Secretaría de Desarrollo Económico ",
+        "Departamento" : "Cundinamarca"
+      },
+      "Información de Datos" : {
+        "Cobertura Geográfica" : "Municipal",
+        "Idioma" : "Español",
+        "Frecuencia de Actualización" : "No aplica",
+        "Fecha Emisión (aaaa-mm-dd)" : "2017-01-13"
+      }
+    },
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+    "renderTypeConfig" : {
+      "visible" : {
+        "table" : true
+      }
+    }
+  },
+  "owner" : {
+    "id" : "pjz2-mur9",
+    "displayName" : "Alcaldia Municipal de Chía",
+    "screenName" : "Alcaldia Municipal de Chía",
+    "type" : "interactive"
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "pjz2-mur9",
+    "displayName" : "Alcaldia Municipal de Chía",
+    "screenName" : "Alcaldia Municipal de Chía",
+    "type" : "interactive"
+  },
+  "tags" : [ "banco de empleo", "municipio de chía", "2017" ],
+  "flags" : [ "default", "restorable", "restorePossibleForType" ]
+}

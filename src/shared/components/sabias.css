@@ -1,0 +1,41 @@
+.container-sabias {
+  height: 100vh;
+  background-image: url("../media/img-sabias1-pink-small.jpg");
+  background-size: cover;
+  text-align: center;
+}
+
+.logo-sabias {
+  margin-top: 10%;
+  height: 17vmin;
+}
+
+.title-sabias {
+  margin: 0%;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 15%;
+}
+
+.text-sabias {
+  color: white;
+  margin-bottom: 0%;
+  text-align: center;
+  
+}
+
+.h6-text {
+  color: white;
+  margin-top: 0%;
+  padding-top: 0%;
+  margin-bottom: 5%;
+}
+
+@media screen and (min-width: 500px) {
+  .container-sabias {
+    height: 100vh;
+    background-image: url("../media/img-sabias1-blue-big.jpg");
+    background-size: cover;
+    text-align: center;
+  }
+}

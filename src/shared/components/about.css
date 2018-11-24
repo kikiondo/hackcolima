@@ -1,0 +1,27 @@
+.container-about {
+  height: 100vh;
+  background-image: url("../media/img-about-blue.jpg");
+  background-size: cover;
+  text-align: center;
+}
+
+.logo-about {
+  margin-top: 10%;
+  height: 17vmin;
+}
+
+.title-about {
+  margin: 0%;
+  color: white;
+  font-weight: bold;
+}
+
+.text-about {
+  margin-top: 15%;
+  color: white;
+  display: flex;
+}
+
+.button-about {
+  margin-top: 10%;
+}
