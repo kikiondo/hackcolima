@@ -4,7 +4,7 @@ import './sabias.css'
 
 const Sabias = () => (
   <div className="container-sabias">
-      <div className="container col s12">
+      <div className="container">
         <img src={logo} className="logo-sabias" alt="logo" />
         <h2 className="title-sabias">¿Sabías que?</h2>
 
