@@ -1,13 +1,15 @@
+.padre {
+  width: 100%;
+}
+
 .login-container {
-   
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   padding: 0;
   margin: 0;
   border: 0;
- 
   text-align: center;
-  }
+}
 
   .login-container h1{
     font-size: 3em;

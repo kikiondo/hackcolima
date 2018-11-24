@@ -1,5 +1,6 @@
 .container-about {
   height: 100vh;
+  width: 100%;
   background-image: url("../media/img-about-blue.jpg");
   background-size: cover;
   text-align: center;
