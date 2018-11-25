@@ -35,6 +35,14 @@ const createEmpleoInDB = (empleo) => {
   })
 }
 
+const getDatosInDB = (callback) =>{
+  const db = firebaseApp.database();
+  const refText = db.ref().child('empleos');
+
+  return refText.on('value', callback);
+    
+    
+}
 const login = (email, password) => firebaseAuth().signInWithEmailAndPassword(email, password)
 
 const logout = () => firebaseAuth().signOut()
@@ -47,5 +55,6 @@ export {
   login,
   logout,
   resetPassword,
-  createEmpleoInDB
+  createEmpleoInDB,
+  getDatosInDB
 }
