@@ -1,5 +1,7 @@
 import React, {Component}  from 'react';
 import ChatRoom from '../../../shared/components/ChatRoom';
+import DatosAbiertos from '../../../shared/components/DatosAbiertos';
+
 // import { Link } from 'react-router-dom'
 
 // import  AppBar from 'material-ui/AppBar';
@@ -16,6 +18,7 @@ class Derechos extends Component{
                     <ToolBar> */}
                     <Navbar/>
                     <ChatRoom/>
+                    <DatosAbiertos/>
                 {/* <Link to="/empleos" className="Link btn waves-effect blue darken-2">Regresar</Link> */}
                     {/* </ToolBar> */}
             {/* //     </AppBar> */}
