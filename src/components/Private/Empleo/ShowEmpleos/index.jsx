@@ -61,16 +61,16 @@ class ShowEmpleo extends Component {
                         </div>
                       <div className="card-front-bottom">
                       <div key={uid(2)}>
-                        <h5 className="ubicacion-Text"><img src={require('./marker.png')} className="map-Marker"></img>{empleo.ciudad}, {empleo.pais}</h5>
+                        <h5 className="ubicacion-Text"><img src={require('./marker.png')} alt="map marker" className="map-Marker"></img>{empleo.ciudad}, {empleo.pais}</h5>
                         </div>
                         </div>
                       </div>
                       <div className="flip-card-back">
                         <h5>Cargo: {empleo.nombre}</h5> 
                         <h6>{empleo.empresa}</h6> 
-                        <p>Dirección: {empleo.direccion}</p>
-                        <p>Escolaridad Mínima: {empleo.escolaridad}</p>
-                        <p>Teléfono de contacto: {empleo.telefono}</p>
+                        <p><b>Dirección: </b> {empleo.direccion}</p>
+                        <p><b>Escolaridad Mínima: </b>{empleo.escolaridad}</p>
+                        <p><b>Teléfono de contacto: </b>{empleo.telefono}</p>
                       </div>
                     </div>
                   </div>
@@ -80,6 +80,7 @@ class ShowEmpleo extends Component {
           </div>
         </div>
         <p className="p-aviso">Sección en proceso, espera próximamente nuevos empleos y actualizaciones, gracias c:</p>
+        <p className="p-aviso">¿Eres una empresa?, <Link to='/crearempleo'>Crea una empleo</Link></p>
         <Link to="/empleos" className="Link btn waves-effect blue darken-2">Regresar</Link>
       </div>
     )
