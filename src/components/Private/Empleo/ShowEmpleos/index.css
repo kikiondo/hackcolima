@@ -62,7 +62,7 @@
 .flip-card-front {
   color: black;
   background-color: #f1f1f1;
-  /*background: url(wallpaper.png) no-repeat center / cover;*/
+  /*background: url(./LogosEmpresas/wallpaper.png) no-repeat center / cover;*/
   text-align: center;
   
 }
@@ -94,7 +94,7 @@
   backface-visibility: hidden;
 }
 .logo-empresa{
-  width: 40%;
+  width: 50%;
   height: 40%;
   border-radius: 20px;
   backface-visibility: hidden;

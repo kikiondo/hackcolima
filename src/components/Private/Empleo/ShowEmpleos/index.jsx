@@ -56,18 +56,18 @@ class ShowEmpleo extends Component {
                     <div className="flip-card-inner">
                       <div className="flip-card-front">
                         <div className="card-front-top">
-                          <img src={require("./mc.png")} alt="Logo de empresa" className="logo-empresa"></img>
+                          <img src={require("./LogosEmpresas/googleLogo.svg.png")} alt="Logo de empresa" className="logo-empresa"></img>
                           <h3 className="cargo-nombre">{empleo.nombre}</h3>
                         </div>
                       <div className="card-front-bottom">
                       <div key={uid(2)}>
-                        <h5 className="ubicacion-Text"><img src={require('./marker.png')} alt="map marker" className="map-Marker"></img>{empleo.ciudad}, {empleo.pais}</h5>
+                        <h5 className="ubicacion-Text"><img src={require('./LogosEmpresas/marker-red.png')} alt="map marker" className="map-Marker"></img>{empleo.ciudad}, {empleo.pais}</h5>
                         </div>
                         </div>
                       </div>
                       <div className="flip-card-back">
                         <h5>Cargo: {empleo.nombre}</h5> 
-                        <h6>{empleo.empresa}</h6> 
+                        <h5>{empleo.empresa}</h5> 
                         <p><b>Dirección: </b> {empleo.direccion}</p>
                         <p><b>Escolaridad Mínima: </b>{empleo.escolaridad}</p>
                         <p><b>Teléfono de contacto: </b>{empleo.telefono}</p>
