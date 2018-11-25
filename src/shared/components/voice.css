@@ -1,0 +1,12 @@
+
+.voice-container{
+    height: 80vh;
+    widows: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.voice-title{
+  font-size: 4em;
+}
