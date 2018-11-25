@@ -15,7 +15,7 @@ class Derechos extends Component{
                 {/* <AppBar>
                     <ToolBar> */}
                     <Navbar/>
-                        <ChatRoom/>
+                    <ChatRoom/>
                 {/* <Link to="/empleos" className="Link btn waves-effect blue darken-2">Regresar</Link> */}
                     {/* </ToolBar> */}
             {/* //     </AppBar> */}
