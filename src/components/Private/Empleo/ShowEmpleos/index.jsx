@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom'
 import {CreditCard} from 'react-kawaii'
 import uid from 'uid'
 import './index.css'
-import {img} from '../../../../shared/media/img/mc.png';
 
 class ShowEmpleo extends Component {
   constructor()
@@ -49,22 +48,29 @@ class ShowEmpleo extends Component {
           <div>
             <h1>Empleos más solicitados!!!</h1>
           </div>
-          <div>
+          <div className="empleos-container">
            {
             Object.values(this.state.empleos).map((empleo) =>
               <div key={uid(2)}>
-                  <div key={uid(2)}>
-                    <h3>{empleo.nombre}</h3>
-                  </div>
                   <div className="flip-card">
                     <div className="flip-card-inner">
                       <div className="flip-card-front">
-                        <img src={img} alt="Avatar" className="img" />
+                        <div className="card-front-top">
+                          <img src={require("./mc.png")} alt="Logo de empresa" className="logo-empresa"></img>
+                          <h3 className="cargo-nombre">{empleo.nombre}</h3>
+                        </div>
+                      <div className="card-front-bottom">
+                      <div key={uid(2)}>
+                        <h5 className="ubicacion-Text"><img src={require('./marker.png')} className="map-Marker"></img>{empleo.ciudad}, {empleo.pais}</h5>
+                        </div>
+                        </div>
                       </div>
                       <div className="flip-card-back">
-                        <h1>John Doe</h1> 
-                        <p>Architect & Engineer</p> 
-                        <p>We love that guy</p>
+                        <h5>Cargo: {empleo.nombre}</h5> 
+                        <h6>{empleo.empresa}</h6> 
+                        <p>Dirección: {empleo.direccion}</p>
+                        <p>Escolaridad Mínima: {empleo.escolaridad}</p>
+                        <p>Teléfono de contacto: {empleo.telefono}</p>
                       </div>
                     </div>
                   </div>
