@@ -1,0 +1,22 @@
+.bodyDatosAbiertos{
+    width: 66%;
+    height: 60vh;
+    position: absolute;
+    margin: 1%;
+}
+
+.bodyDatosAbiertos h1 {
+    font-size: 3rem;
+}
+
+.bodyDatosAbiertos h2 {
+    font-size: 1.5rem;
+}
+.bodyDatosAbiertos p {
+    font-size: 1rem;
+    text-align: justify;
+}
+.bodyDatosAbiertos blockquote {
+
+    
+}

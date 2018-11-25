@@ -8,8 +8,9 @@ class Navbar extends React.Component {
 		return (
 			<div>
 				<ul className="nav">
-          <li className="nav-logo"><img src={logo} className="logo-nav" alt="logo" /></li>
-					<li className="nav-item slam-left"><Link to="/empleos">OficoFast</Link></li>
+          			<li className="nav-logo"><img src={logo} className="logo-nav" alt="logo" /></li>
+					<li className="nav-item slam-left"><Link to="/empleos">OficioFast</Link></li>
+					<li className="nav-item"><Link to="/derechos">Chat</Link></li>
 					<li className="nav-item"><Link to="/">Salir</Link></li>
 				</ul>
 			</div>

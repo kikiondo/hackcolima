@@ -1,0 +1,61 @@
+.bodyChat{
+    background-color:#EDEDEF;
+    width: 30%;
+    height: 60vh;
+    position: absolute;
+    right: 0;
+    margin: 1%;
+}
+
+
+a { text-decoration: none; }
+
+.clearfix{
+    overflow: auto;
+    position: absolute;
+    top: 0;
+    height: 75%;
+    width: 100%;
+}
+
+
+
+.liChat li {
+    border-radius: 25px;
+    margin: 20px;
+    text-decoration: none;
+    list-style: none;
+    background: linear-gradient(to bottom right, #1976d2 , #1976d2 );
+    color: #FFF;
+}
+
+
+.message-field {
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    justify-self: flex-end;
+    padding: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 1%;
+  }
+
+.chat-input {
+    flex-grow: 2;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 5px 30px;
+    border: none;
+}
+
+.send-button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 20px;
+    background: linear-gradient(to bottom right, #1976d2 , #1976d2 );
+    color: white;
+  }

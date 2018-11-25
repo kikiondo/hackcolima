@@ -8,6 +8,7 @@ import Empleo from '../../components/Private/Empleo'
 import Error404 from '../../shared/components/Error404'
 import AddEmpleo from '../../components/Private/Empleo/AddEmpleo'
 import ShowEmpleo from '../../components/Private/Empleo/ShowEmpleos'
+import Derechos from '../../components/Private/Derechos'
 
 const AppRoutes =  () => (
   <App>
@@ -17,6 +18,7 @@ const AppRoutes =  () => (
       <Route path='/empleos' component={Empleo} exact/>
       <Route path='/buscarempleo' component={ShowEmpleo} exact/>
       <Route path='/crearempleo' component={AddEmpleo} exact/>
+      <Route path='/derechos' component={Derechos} exact/>
       <Route component={Error404}/>
     </Switch>
   </App>
