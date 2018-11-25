@@ -73,9 +73,12 @@ class DatosAbiertos extends Component  {
                             La no discriminación
                         La participación e inclusión plenas y efectivas en la sociedad
                         El respeto por la diferencia y la aceptación de las personas con discapacidad como parte de la diversidad y condición humana</p>
+                        <blockquote cite='https://www.gob.mx/conadis/articulos/el-derecho-de-las-personas-con-discapacidad-al-trabajo?idiom=es'> Datos recuperados del blog "Consejo Nacional para el Desarrollo y la Inclusión de las Personas con Discapacidad" disponible en su <a href="https://www.gob.mx/conadis/articulos/el-derecho-de-las-personas-con-discapacidad-al-trabajo?idiom=es">Sitio web</a></blockquote>
                      </div>
+
                   </div>
                 </div>
+               
 
         
             
