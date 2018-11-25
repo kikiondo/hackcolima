@@ -52,7 +52,7 @@ class ChatRoom extends Component  {
             <div className="bodyChat">
                 <div className="chat-message-content clearfix">
 
-						<ol> { messagesList }</ol>
+						<ol className="liChat">  { messagesList } </ol>
                 </div>
 
                 <div className="message-field">
