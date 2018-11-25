@@ -48,14 +48,14 @@ class DatosAbiertos extends Component  {
     render (){
         
         return(
-            <div className="bodyDatosAbiertos" >
+            <div >
 
                 <div>
-                  <div>
+                  <div className="bodyDatosAbiertos">
                       <h1>Derechos laborales</h1>
                      <div>
                          <h2>El artículo 123 de nuestra Carta Magna, establece que toda persona tiene derecho al trabajo digno y socialmente útil.</h2>
-                        <p>La Ley Federal del Trabajo y la Constitución Polít    ica mexicana en sus artículos 4° y 5° respectivamente señalan que 
+                        <p>La Ley Federal del Trabajo y la Constitución Política mexicana en sus artículos 4° y 5° respectivamente señalan que 
                          a ninguna persona se le puede impedir se dedique a la profesión, industria, comercio o trabajo que le acomode, siendo
                         lícitos, y esta libertad sólo puede vedarse por determinación judicial, cuando se ataquen los derechos de terceros o 
                         se ofendan los de la sociedad.</p>
@@ -77,7 +77,7 @@ class DatosAbiertos extends Component  {
                   </div>
                 </div>
 
-                {/*  */}
+        
             
             </div>
 

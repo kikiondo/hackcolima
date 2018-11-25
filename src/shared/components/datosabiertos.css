@@ -1,8 +1,8 @@
 .bodyDatosAbiertos{
-    background-color:#EDEDEF;
-    width: 70%;
+    width: 66%;
     height: 60vh;
     position: absolute;
+    margin: 1%;
 }
 
 .bodyDatosAbiertos h1 {
